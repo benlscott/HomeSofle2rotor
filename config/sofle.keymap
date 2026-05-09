@@ -71,6 +71,21 @@
             bindings = <&kp LC(Y)>;
             key-positions = <36 37>;
         };
+
+        MacScreenShot {
+            bindings = <&macscreenshot>;
+            key-positions = <27 26 28>;
+        };
+
+        MacCopy {
+            bindings = <&kp LG(C)>;
+            key-positions = <39 40 38>;
+        };
+
+        MacPaste {
+            bindings = <&kp LG(V)>;
+            key-positions = <39 40 41>;
+        };
     };
 
     macros {
@@ -84,6 +99,18 @@
                 <&kp LEFT_WIN &kp LEFT_SHIFT &kp S>;
 
             label = "SCREENCAP";
+        };
+
+        macscreenshot: macscreenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>;
+
+            label = "MACSCREENSHOT";
         };
     };
 
