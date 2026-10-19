@@ -1,5 +1,5 @@
 
-# Sofle Choc 60key 
+# Sofle Choc 60 key 
 
 Flash firmware:
 1. Keep both halves powered on.
@@ -11,7 +11,9 @@ Flash firmware:
 # Store pages:
 keyboard-hoarders.com and keyboardhoarders.etsy.com
 ## Customize keymap guide:
-keyboardhoarders.com/blog
+[keyboardhoarders.com/guides](https://keyboard-hoarders.com/pages/guides-1)
 
-![IMG_0700](https://github.com/user-attachments/assets/5908f61d-e762-4a3d-ab9d-74b530c19164)
+
+<img width="5328" height="4000" alt="main" src="https://github.com/user-attachments/assets/e5e5167a-6bfb-467e-8826-21596aeaf5d8" />
+
 <img width="956" height="1646" alt="soflechoc60key" src="https://github.com/user-attachments/assets/086727d5-d25a-4369-820f-aabff3ca3c8e" />
