@@ -86,6 +86,11 @@
             bindings = <&kp LG(V)>;
             key-positions = <39 40 41>;
         };
+
+        SleepDMFD {
+            bindings = <&soft_off>;
+            key-positions = <36 33>;
+        };
     };
 
     macros {
